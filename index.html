@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1>Hotel Palace</h1>
+        </div>
+      </div>
+    <div class="row">
+    <div class="col">
+        <h4>Rooms & Suits</h4>
+        <img src="szoba.jpg" class="kep">
+        <p>A breathtaking view of the Taj Mahal is framed in the large window of these suites, for picture perfect moments you can cherish forever. Take your time to revel in the romance. Get up close with the one you love on the couple’s marble shower seat. Relax on your plush king size bed or unwind on the handcrafted furniture customised especially for Oberoi.
+            View Taj Mahal
+            Bed Type King size
+            Room Size 108 square metres</p>
+    </div>
+    <div class="col" >
+        <h4>Restaurant</h4>
+        <img src="etterem.jpg" class="kep">
+        <p>Our all day dining restaurant has a chic ambience and an Italian soul. With an a la carte menu that includes hand rolled pastas and melt-in-the-mouth sour dough pizzas, as well as classic and contemporary pan Asian and Indian delicacies. Our specially curated tasting menus with paired wines, guarantee an unforgettable dining experience. Bellevue promises something for every occasion, dishes to please every palate, and hospitality that is genuine and sincere</p>
+    </div>
+    <div class="col">
+        <h4>Wellnes & Spa</h4>
+        <img src="wellness.jpg" class="kep">
+        <p>Take your pick of holistic treatments that include Aromatherapy, Eastern, Western and signature Oberoi massage. To relax, revitalise and rejuvenate the mind, body and spirit.The spa at The Oberoi Amarvilas, Agra is inspired by Mughal architecture. At the centre sits a white marble steam room under a dome roof. Couples' treatment rooms on the fourth floor have uninterrupted views of the Taj Mahal.
+            Note: The Oberoi Spa is for the exclusive use of our resident guests only.</p>
+    </div>
+    </div>
+    <div class="foglalas">
+        <label>Make reservation for:</label>
+        <select id="szam" onchange="friss()">
+            <option value="1">1 person</option>
+            <option value="2">2 people</option>
+            <option value="3">3 people</option>
+            <option value="4">4 people</option>
+        </select>
+        <br>
+        <label>Longevity of stay:</label>
+        <select id="nap" onchange="friss()">
+            <option value="1">1 day</option>
+            <option value="2">2 days</option>
+            <option value="3">3 days</option>
+            <option value="4">4 days</option>
+            <option value="5">5 days</option>
+            <option value="6">6 days</option>
+            <option value="7">7 days</option>
+        </select>
+        <br>
+      <label>Cost:</label>  
+     <div id="szemelyek"></div>
+     <input type="button" value="Reserve" id="gomb">
+    </div>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h5>If you have any questions about our Hotel feel free to contact as at:</h5>
+            <h5>Email: hotelpalace@mail.com</h5>
+            <h5>Tel: 001234567</h5>
+          </div>
+    </div>      
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="main.js">
+    </script>       
+</body>
+</html>
